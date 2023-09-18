@@ -25,7 +25,7 @@ func main() {
 		  "region": "Kraiot",
 		  "email": "test@gmail.com"
 		},
-		"payments": {
+		"payment": {
 		  "transaction": "b563feb7b2b84b6test",
 		  "request_id": "",
 		  "currency": "USD",
