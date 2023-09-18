@@ -51,7 +51,7 @@ func main() {
 			"status": "ok",
 		})
 	})
-	gin_server.GET("/:uid", handler_api.GetUid)
+	gin_server.GET("/uid/:uid", handler_api.GetUid)
 	gin_server.Run()
 
 }
